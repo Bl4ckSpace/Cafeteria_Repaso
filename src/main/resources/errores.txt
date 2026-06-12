@@ -1,0 +1,4 @@
+PIZZA;Margarita;8.00
+MENU;Menú Especial;Agua mineral
+BEBIDA;Té verde
+;Magdalena;1.80
