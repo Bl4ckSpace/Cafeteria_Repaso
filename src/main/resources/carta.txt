@@ -1,0 +1,16 @@
+BEBIDA;Café solo;1.20
+PIZZA;Margarita;8.00
+BEBIDA;Café con leche;1.50
+COMIDA;Tostada con tomate;2.50
+COMIDA;;2.50
+MENU;Menú Desayuno;Café con leche;Tostada con tomate;3.60
+BEBIDA;Zumo de naranja;2.00
+MENU;Menú Especial;Agua mineral
+COMIDA;Croissant de jamón;3.00
+BEBIDA;Té verde
+COMIDA;Bocadillo de tortilla;3.50
+;Magdalena;1.80
+BEBIDA;Agua mineral;1.00
+MENU;Menú Completo;Zumo de naranja;Bocadillo de tortilla;4.95
+COMIDA;Pincho de tortilla;2.00
+MENU;Menú Rápido;Café solo;Croissant de jamón;3.78
