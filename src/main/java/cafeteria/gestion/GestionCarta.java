@@ -1,4 +1,4 @@
-package cafeteria.carta;
+package cafeteria.gestion;
 
 import cafeteria.productos.*;
 
@@ -17,6 +17,7 @@ public class GestionCarta {
             while ((linea = br.readLine()) != null) {
                 String[] datos = linea.split(";");
                 try {
+                    for (String dato : datos) {if (dato.isBlank()) throw new RuntimeException();}
                     switch (datos[0]) {
                         case "COMIDA" -> carta.add(new Comida(datos[1], Double.parseDouble(datos[2])));
                         case "BEBIDA" -> carta.add(new Bebida(datos[1], Double.parseDouble(datos[2])));

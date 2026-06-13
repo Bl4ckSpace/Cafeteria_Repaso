@@ -19,4 +19,8 @@ public abstract class Producto implements Serializable {
         return precio;
     }
 
+    @Override
+    public String toString() {
+        return getNombre() + " - " + getPrecio() + "€";
+    }
 }

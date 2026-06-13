@@ -22,4 +22,11 @@ public class Menu extends Producto {
         double suma = comida.getPrecio() + bebida.getPrecio();
         return suma - (suma * 0.1);
     }
+
+    @Override
+    public String toString() {
+        return "MENU   | " + super.toString() +
+            " (" + bebida.getNombre() + " + " + comida.getNombre() + ")";
+    }
+
 }
